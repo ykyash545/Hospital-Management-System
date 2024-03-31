@@ -444,7 +444,7 @@ def main():
     create_tickets_table(create_connection()) 
     st.title('Admin Portal')
 
-    logo_image = Image.open('D:\Back up 2024 Jan\ALPS PROJECT\Admin Portal\Deployed\Portal\logo.jpg')
+    logo_image = Image.open('logo.jpg')
     st.sidebar.image(logo_image, use_column_width=True)
 
     # Navigation
