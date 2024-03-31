@@ -44,7 +44,7 @@ def verify_password(password, hashed_password):
 
 def main():
     # Add logo (replace "logo.png" with your logo file path)
-    st.image("D:\Back up 2024 Jan\ALPS PROJECT\Admin Portal\Deployed\Portal\logo.jpg", width=250)  # You can adjust the width as needed
+    st.image("logo.jpg", width=250)  # You can adjust the width as needed
 
     st.title("Let's Get Started:")
     st.title("Sign in into portal")
